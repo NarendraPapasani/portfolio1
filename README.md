@@ -1,12 +1,57 @@
-# React + Vite
+# Portfolio WebsiteThis is a responsive single-page portfolio website built using **React**, **Tailwind CSS**, and **Three.js**. The website showcases sections for Hero, About, Projects, and Contact, with a modern design and interactive elements.## Features- **Hero Section**: Includes a spinning 3D cube created with Three.js.- **About Section**: Displays personal information with enhanced styling and alignment.- **Projects Section**: Highlights three projects with descriptions: - **Ecommerce Website**: A functional ecommerce platform. - **Dental Care App**: A dental clinic management system. - **Veggie Bulk**: A bulk vegetable purchasing platform.- **Contact Section**: Redesigned with a gradient background and a styled contact form.- **Responsive Design**: Optimized for all screen sizes.## Technologies Used- **React**: For building the user interface.- **Vite**: For fast development and bundling.- **Tailwind CSS**: For styling and layout.- **Three.js**: For 3D graphics in the Hero section.## Installation1. Clone the repository: ```bash git clone https://github.com/NarendraPapasani/portfolio1.git
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+````
+2. Navigate to the project directory:
+```bash
+cd portfolio1
+````
 
-Currently, two official plugins are available:
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Usage
 
-## Expanding the ESLint configuration
+1. Start the development server:
+   ```bash
+   npm run dev
+   ```
+2. Open your browser and navigate to `http://localhost:5173`.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Deployment
+
+The website is deployed on GitHub Pages. You can view it [here](https://NarendraPapasani.github.io/portfolio1).
+
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── Hero.jsx
+│   ├── About.jsx
+│   ├── Projects.jsx
+│   ├── Contact.jsx
+├── assets/
+│   ├── Project1.png
+│   ├── image.png
+│   ├── image1.png
+├── App.jsx
+├── main.jsx
+├── index.css
+├── App.css
+public/
+├── vite.svg
+```
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any inquiries, feel free to reach out via the contact form on the website or email me at `your-email@example.com`.
