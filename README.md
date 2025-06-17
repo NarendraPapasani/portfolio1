@@ -47,7 +47,7 @@ Welcome to my personal portfolio! This project showcases my skills, projects, an
 
 ## Deployment
 
-This portfolio is deployed and accessible at [your-portfolio-link](https://your-portfolio-link.com).
+This portfolio is deployed and accessible at https://chic-druid-150320.netlify.app/
 
 ## License
 
