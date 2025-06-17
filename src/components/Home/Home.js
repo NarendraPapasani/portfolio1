@@ -22,7 +22,7 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                <strong className="main-name"> Narendra Sai Papasani</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -31,12 +31,19 @@ function Home() {
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
-              <img
+              {/* <img
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
                 style={{ maxHeight: "450px" }}
-              />
+              /> */}
+
+              <iframe
+                src="https://my.spline.design/developeravatarremix-wWbUjacO3nJOreSGyeBS0qAR/"
+                frameborder="0"
+                width="100%"
+                height="100%"
+              ></iframe>
             </Col>
           </Row>
         </Container>
